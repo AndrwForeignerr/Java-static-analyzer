@@ -1,0 +1,141 @@
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 12px;
+}
+
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.button:pressed {
+    -fx-background-color: #0D47A1;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 120;
+    -fx-tab-max-width: 200;
+}
+
+.tab {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.tab:selected {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.text-area:focused {
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 5;
+}
+
+.list-cell:selected {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+.list-cell:hover {
+    -fx-background-color: #e3f2fd;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e3f2fd;
+}
+
+.table-column-header {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0 1 1 0;
+    -fx-font-weight: bold;
+}
+
+.split-pane {
+    -fx-background-color: #f4f4f4;
+}
+
+.split-pane-divider {
+    -fx-background-color: #cccccc;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+.progress-bar {
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 3;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 3;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: #f0f0f0;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #cccccc;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #999999;
+}
