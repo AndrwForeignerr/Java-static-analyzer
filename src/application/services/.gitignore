@@ -1,0 +1,15 @@
+/AnalyzerService$ClassInfoExtractor.class
+/AnalyzerService.class
+/CSGenerator$CodeContext.class
+/CSGenerator.class
+/DecompilerService.class
+/GraphService$ClassHierarchyGenerator.class
+/GraphService$MethodCallGraphGenerator.class
+/GraphService.class
+/HeatmapAnalyzer$ComplexityCalculator.class
+/HeatmapAnalyzer$StructureAnalyzer.class
+/HeatmapAnalyzer.class
+/OptimizationService$OptimizationAnalyzer.class
+/OptimizationService.class
+/SecurityService$SecurityAnalyzer.class
+/SecurityService.class
